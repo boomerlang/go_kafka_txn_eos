@@ -112,7 +112,7 @@ func eos_prod_cons(ctx context.Context, metrics *Metrics, comm chan string) erro
 							if r.Key != nil {
 								key = string(r.Key)
 							}
-							fmt.Println("MSG1 = ", key, value)
+							
 							sess.Produce(ctx, kgo.KeyStringRecord(key, value), e.Promise())
 					}
 				}
