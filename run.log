@@ -1,0 +1,1210 @@
+2023/01/19 11:16:29 [eos] [INFO] started 
+2023/01/19 11:16:29 [rule engine] [INFO] started 
+2023/01/19 11:16:29 [eos] [INFO] immediate metadata update triggered; why: client initialization
+2023/01/19 11:16:30 [eos] [INFO] beginning to manage the group lifecycle; group: eos-task-force-group
+2023/01/19 11:16:30 [eos] [INFO] joining group; group: eos-task-force-group
+2023/01/19 11:16:30 [eos] [INFO] join returned MemberIDRequired, rejoining with response's MemberID; group: eos-task-force-group, member_id: kgo-1473f271-4394-4af5-86b5-5e06b189bc86
+2023/01/19 11:16:30 [eos] [INFO] joined, balancing group; group: eos-task-force-group, member_id: kgo-1473f271-4394-4af5-86b5-5e06b189bc86, instance_id: <nil>, generation: 289, balance_protocol: cooperative-sticky, leader: true
+2023/01/19 11:16:30 [eos] [INFO] balancing group as leader
+2023/01/19 11:16:30 [eos] [INFO] balance group member; id: kgo-1473f271-4394-4af5-86b5-5e06b189bc86, interests: interested topics: [GoRuleEngineServiceIn], previously owned: 
+2023/01/19 11:16:30 [eos] [INFO] balanced; plan: kgo-1473f271-4394-4af5-86b5-5e06b189bc86{GoRuleEngineServiceIn[0]}
+2023/01/19 11:16:30 [eos] [INFO] syncing; group: eos-task-force-group, protocol_type: consumer, protocol: cooperative-sticky
+2023/01/19 11:16:30 [eos] [INFO] synced; group: eos-task-force-group, assigned: GoRuleEngineServiceIn[0]
+2023/01/19 11:16:30 [eos] [INFO] new group session begun; group: eos-task-force-group, added: GoRuleEngineServiceIn[0], lost: 
+2023/01/19 11:16:30 [eos] [INFO] beginning heartbeat loop; group: eos-task-force-group
+2023/01/19 11:16:30 [eos] [INFO] assigning partitions; why: newly fetched offsets for group eos-task-force-group, how: assigning everything new, keeping current assignment, input: GoRuleEngineServiceIn[0{39888 e0 ce0}]
+2023/01/19 11:16:30 [eos] [INFO] beginning transact session
+2023/01/19 11:16:30 [eos] [INFO] initializing producer id
+2023/01/19 11:16:30 [eos] [INFO] producer id initialization success; id: 38001, epoch: 198
+2023/01/19 11:16:30 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:16:30 [eos] [INFO] sending data to rule engine
+2023/01/19 11:16:30 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:16:30 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:16:30 [eos] [INFO] sending data to rule engine
+2023/01/19 11:16:30 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:16:30 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:16:30 [eos] [INFO] sending data to rule engine
+2023/01/19 11:16:30 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:16:30 [eos] [INFO] immediate metadata update triggered; why: forced load because we are producing to a new topic for the first time
+2023/01/19 11:16:30 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:16:30 [eos] [INFO] sending data to rule engine
+2023/01/19 11:16:30 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:16:30 [eos] [INFO] producing to a new topic for the first time, fetching metadata to learn its partitions; topic: GoRuleEngineServiceOutTransformationServiceIn
+2023/01/19 11:16:30 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:16:30 [eos] [INFO] sending data to rule engine
+2023/01/19 11:16:30 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:16:30 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:16:30 [eos] [INFO] sending data to rule engine
+2023/01/19 11:16:30 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:16:30 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:16:30 [eos] [INFO] sending data to rule engine
+2023/01/19 11:16:30 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:16:30 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:16:30 [eos] [INFO] sending data to rule engine
+2023/01/19 11:16:30 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:16:30 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:16:30 [eos] [INFO] sending data to rule engine
+2023/01/19 11:16:30 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:16:30 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:16:30 [eos] [INFO] sending data to rule engine
+2023/01/19 11:16:30 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:16:30 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:16:30 [eos] [INFO] sending data to rule engine
+2023/01/19 11:16:30 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:16:30 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:16:30 [eos] [INFO] sending data to rule engine
+2023/01/19 11:16:30 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:16:30 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:16:30 [eos] [INFO] sending data to rule engine
+2023/01/19 11:16:30 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:16:30 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:16:30 [eos] [INFO] sending data to rule engine
+2023/01/19 11:16:30 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:16:30 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:16:30 [eos] [INFO] sending data to rule engine
+2023/01/19 11:16:30 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:16:30 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:16:30 [eos] [INFO] sending data to rule engine
+2023/01/19 11:16:30 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:16:30 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:16:30 [eos] [INFO] sending data to rule engine
+2023/01/19 11:16:30 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:16:30 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:16:30 [eos] [INFO] sending data to rule engine
+2023/01/19 11:16:30 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:16:30 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:16:30 [eos] [INFO] sending data to rule engine
+2023/01/19 11:16:30 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:16:30 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:16:30 [eos] [INFO] sending data to rule engine
+2023/01/19 11:16:30 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:16:30 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:16:30 [eos] [INFO] sending data to rule engine
+2023/01/19 11:16:30 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:16:30 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:16:30 [eos] [INFO] sending data to rule engine
+2023/01/19 11:16:30 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:16:30 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:16:30 [eos] [INFO] sending data to rule engine
+2023/01/19 11:16:30 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:16:30 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:16:30 [eos] [INFO] sending data to rule engine
+2023/01/19 11:16:30 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:16:30 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:16:30 [eos] [INFO] sending data to rule engine
+2023/01/19 11:16:30 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:16:30 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:16:30 [eos] [INFO] sending data to rule engine
+2023/01/19 11:16:30 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:16:30 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:16:30 [eos] [INFO] sending data to rule engine
+2023/01/19 11:16:30 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:16:30 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:16:30 [eos] [INFO] sending data to rule engine
+2023/01/19 11:16:30 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:16:30 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:16:30 [eos] [INFO] sending data to rule engine
+2023/01/19 11:16:30 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:16:30 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:16:30 [eos] [INFO] sending data to rule engine
+2023/01/19 11:16:30 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:16:30 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:16:30 [eos] [INFO] sending data to rule engine
+2023/01/19 11:16:30 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:16:30 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:16:30 [eos] [INFO] done waiting for metadata for new topic; topic: GoRuleEngineServiceOutTransformationServiceIn
+2023/01/19 11:16:30 [eos] [INFO] flushing
+2023/01/19 11:16:30 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:16:30 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:16:30 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:16:30 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39919}]]
+2023/01/19 11:16:30 [eos] [INFO] commit successful!
+2023/01/19 11:16:30 [eos] [INFO] beginning transact session
+2023/01/19 11:16:30 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:16:30 [eos] [INFO] sending data to rule engine
+2023/01/19 11:16:30 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:16:30 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:16:30 [eos] [INFO] flushing
+2023/01/19 11:16:30 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:16:30 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:16:30 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:16:30 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39920}]]
+2023/01/19 11:16:30 [eos] [INFO] commit successful!
+2023/01/19 11:16:32 [eos] [INFO] beginning transact session
+2023/01/19 11:16:32 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:16:32 [eos] [INFO] sending data to rule engine
+2023/01/19 11:16:32 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:16:32 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:16:32 [eos] [INFO] flushing
+2023/01/19 11:16:32 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:16:32 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:16:32 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:16:32 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39921}]]
+2023/01/19 11:16:32 [eos] [INFO] commit successful!
+2023/01/19 11:16:34 [eos] [INFO] beginning transact session
+2023/01/19 11:16:34 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:16:34 [eos] [INFO] sending data to rule engine
+2023/01/19 11:16:34 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:16:34 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:16:34 [eos] [INFO] flushing
+2023/01/19 11:16:34 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:16:34 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:16:34 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:16:34 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39922}]]
+2023/01/19 11:16:34 [eos] [INFO] commit successful!
+2023/01/19 11:16:36 [eos] [INFO] beginning transact session
+2023/01/19 11:16:36 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:16:36 [eos] [INFO] sending data to rule engine
+2023/01/19 11:16:36 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:16:36 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:16:36 [eos] [INFO] flushing
+2023/01/19 11:16:36 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:16:36 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:16:36 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:16:36 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39923}]]
+2023/01/19 11:16:36 [eos] [INFO] commit successful!
+2023/01/19 11:16:37 [eos] [INFO] beginning transact session
+2023/01/19 11:16:37 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:16:37 [eos] [INFO] sending data to rule engine
+2023/01/19 11:16:37 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:16:37 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:16:37 [eos] [INFO] flushing
+2023/01/19 11:16:37 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:16:38 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:16:38 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:16:38 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39924}]]
+2023/01/19 11:16:38 [eos] [INFO] commit successful!
+2023/01/19 11:16:39 [eos] [INFO] beginning transact session
+2023/01/19 11:16:39 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:16:39 [eos] [INFO] sending data to rule engine
+2023/01/19 11:16:39 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:16:39 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:16:39 [eos] [INFO] flushing
+2023/01/19 11:16:39 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:16:39 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:16:39 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:16:39 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39925}]]
+2023/01/19 11:16:39 [eos] [INFO] commit successful!
+2023/01/19 11:16:41 [eos] [INFO] beginning transact session
+2023/01/19 11:16:41 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:16:41 [eos] [INFO] sending data to rule engine
+2023/01/19 11:16:41 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:16:41 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:16:41 [eos] [INFO] flushing
+2023/01/19 11:16:41 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:16:41 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:16:41 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:16:41 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39926}]]
+2023/01/19 11:16:41 [eos] [INFO] commit successful!
+2023/01/19 11:16:43 [eos] [INFO] beginning transact session
+2023/01/19 11:16:43 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:16:43 [eos] [INFO] sending data to rule engine
+2023/01/19 11:16:43 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:16:43 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:16:43 [eos] [INFO] flushing
+2023/01/19 11:16:43 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:16:43 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:16:43 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:16:43 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39927}]]
+2023/01/19 11:16:43 [eos] [INFO] commit successful!
+2023/01/19 11:16:45 [eos] [INFO] beginning transact session
+2023/01/19 11:16:45 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:16:45 [eos] [INFO] sending data to rule engine
+2023/01/19 11:16:45 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:16:45 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:16:45 [eos] [INFO] flushing
+2023/01/19 11:16:45 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:16:45 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:16:45 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:16:45 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39928}]]
+2023/01/19 11:16:45 [eos] [INFO] commit successful!
+2023/01/19 11:16:46 [eos] [INFO] beginning transact session
+2023/01/19 11:16:46 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:16:46 [eos] [INFO] sending data to rule engine
+2023/01/19 11:16:46 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:16:46 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:16:47 [eos] [INFO] flushing
+2023/01/19 11:16:47 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:16:47 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:16:47 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:16:47 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39929}]]
+2023/01/19 11:16:47 [eos] [INFO] commit successful!
+2023/01/19 11:16:48 [eos] [INFO] beginning transact session
+2023/01/19 11:16:48 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:16:48 [eos] [INFO] sending data to rule engine
+2023/01/19 11:16:48 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:16:48 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:16:48 [eos] [INFO] flushing
+2023/01/19 11:16:48 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:16:48 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:16:48 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:16:48 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39930}]]
+2023/01/19 11:16:48 [eos] [INFO] commit successful!
+2023/01/19 11:16:50 [eos] [INFO] beginning transact session
+2023/01/19 11:16:50 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:16:50 [eos] [INFO] sending data to rule engine
+2023/01/19 11:16:50 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:16:50 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:16:50 [eos] [INFO] flushing
+2023/01/19 11:16:50 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:16:50 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:16:50 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:16:50 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39931}]]
+2023/01/19 11:16:50 [eos] [INFO] commit successful!
+2023/01/19 11:16:52 [eos] [INFO] beginning transact session
+2023/01/19 11:16:52 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:16:52 [eos] [INFO] sending data to rule engine
+2023/01/19 11:16:52 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:16:52 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:16:52 [eos] [INFO] flushing
+2023/01/19 11:16:52 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:16:52 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:16:52 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:16:52 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39932}]]
+2023/01/19 11:16:52 [eos] [INFO] commit successful!
+2023/01/19 11:16:54 [eos] [INFO] beginning transact session
+2023/01/19 11:16:54 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:16:54 [eos] [INFO] sending data to rule engine
+2023/01/19 11:16:54 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:16:54 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:16:54 [eos] [INFO] flushing
+2023/01/19 11:16:54 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:16:54 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:16:54 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:16:54 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39933}]]
+2023/01/19 11:16:54 [eos] [INFO] commit successful!
+2023/01/19 11:16:56 [eos] [INFO] beginning transact session
+2023/01/19 11:16:56 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:16:56 [eos] [INFO] sending data to rule engine
+2023/01/19 11:16:56 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:16:56 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:16:56 [eos] [INFO] flushing
+2023/01/19 11:16:56 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:16:56 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:16:56 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:16:56 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39934}]]
+2023/01/19 11:16:56 [eos] [INFO] commit successful!
+2023/01/19 11:16:57 [eos] [INFO] beginning transact session
+2023/01/19 11:16:57 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:16:57 [eos] [INFO] sending data to rule engine
+2023/01/19 11:16:57 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:16:57 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:16:57 [eos] [INFO] flushing
+2023/01/19 11:16:57 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:16:58 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:16:58 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:16:58 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39935}]]
+2023/01/19 11:16:58 [eos] [INFO] commit successful!
+2023/01/19 11:16:59 [eos] [INFO] beginning transact session
+2023/01/19 11:16:59 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:16:59 [eos] [INFO] sending data to rule engine
+2023/01/19 11:16:59 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:16:59 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:16:59 [eos] [INFO] flushing
+2023/01/19 11:16:59 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:16:59 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:16:59 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:16:59 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39936}]]
+2023/01/19 11:16:59 [eos] [INFO] commit successful!
+2023/01/19 11:17:01 [eos] [INFO] beginning transact session
+2023/01/19 11:17:01 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:17:01 [eos] [INFO] sending data to rule engine
+2023/01/19 11:17:01 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:17:01 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:17:01 [eos] [INFO] flushing
+2023/01/19 11:17:01 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:17:01 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:17:01 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:17:01 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39937}]]
+2023/01/19 11:17:01 [eos] [INFO] commit successful!
+2023/01/19 11:17:03 [eos] [INFO] beginning transact session
+2023/01/19 11:17:03 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:17:03 [eos] [INFO] sending data to rule engine
+2023/01/19 11:17:03 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:17:03 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:17:03 [eos] [INFO] flushing
+2023/01/19 11:17:03 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:17:03 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:17:03 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:17:03 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39938}]]
+2023/01/19 11:17:03 [eos] [INFO] commit successful!
+2023/01/19 11:17:05 [eos] [INFO] beginning transact session
+2023/01/19 11:17:05 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:17:05 [eos] [INFO] sending data to rule engine
+2023/01/19 11:17:05 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:17:05 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:17:05 [eos] [INFO] flushing
+2023/01/19 11:17:05 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:17:05 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:17:05 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:17:05 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39939}]]
+2023/01/19 11:17:05 [eos] [INFO] commit successful!
+2023/01/19 11:17:07 [eos] [INFO] beginning transact session
+2023/01/19 11:17:07 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:17:07 [eos] [INFO] sending data to rule engine
+2023/01/19 11:17:07 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:17:07 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:17:07 [eos] [INFO] flushing
+2023/01/19 11:17:07 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:17:07 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:17:07 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:17:07 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39940}]]
+2023/01/19 11:17:07 [eos] [INFO] commit successful!
+2023/01/19 11:17:08 [eos] [INFO] beginning transact session
+2023/01/19 11:17:08 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:17:08 [eos] [INFO] sending data to rule engine
+2023/01/19 11:17:08 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:17:08 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:17:08 [eos] [INFO] flushing
+2023/01/19 11:17:08 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:17:09 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:17:09 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:17:09 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39941}]]
+2023/01/19 11:17:09 [eos] [INFO] commit successful!
+2023/01/19 11:17:10 [eos] [INFO] beginning transact session
+2023/01/19 11:17:10 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:17:10 [eos] [INFO] sending data to rule engine
+2023/01/19 11:17:10 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:17:10 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:17:10 [eos] [INFO] flushing
+2023/01/19 11:17:10 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:17:10 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:17:10 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:17:10 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39942}]]
+2023/01/19 11:17:10 [eos] [INFO] commit successful!
+2023/01/19 11:17:12 [eos] [INFO] beginning transact session
+2023/01/19 11:17:12 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:17:12 [eos] [INFO] sending data to rule engine
+2023/01/19 11:17:12 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:17:12 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:17:12 [eos] [INFO] flushing
+2023/01/19 11:17:12 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:17:12 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:17:12 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:17:12 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39943}]]
+2023/01/19 11:17:12 [eos] [INFO] commit successful!
+2023/01/19 11:17:14 [eos] [INFO] beginning transact session
+2023/01/19 11:17:14 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:17:14 [eos] [INFO] sending data to rule engine
+2023/01/19 11:17:14 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:17:14 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:17:14 [eos] [INFO] flushing
+2023/01/19 11:17:14 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:17:14 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:17:14 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:17:14 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39944}]]
+2023/01/19 11:17:14 [eos] [INFO] commit successful!
+2023/01/19 11:17:16 [eos] [INFO] beginning transact session
+2023/01/19 11:17:16 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:17:16 [eos] [INFO] sending data to rule engine
+2023/01/19 11:17:16 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:17:16 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:17:16 [eos] [INFO] flushing
+2023/01/19 11:17:16 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:17:16 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:17:16 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:17:16 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39945}]]
+2023/01/19 11:17:16 [eos] [INFO] commit successful!
+2023/01/19 11:17:17 [eos] [INFO] beginning transact session
+2023/01/19 11:17:17 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:17:17 [eos] [INFO] sending data to rule engine
+2023/01/19 11:17:17 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:17:17 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:17:17 [eos] [INFO] flushing
+2023/01/19 11:17:17 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:17:18 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:17:18 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:17:18 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39946}]]
+2023/01/19 11:17:18 [eos] [INFO] commit successful!
+2023/01/19 11:17:19 [eos] [INFO] beginning transact session
+2023/01/19 11:17:19 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:17:19 [eos] [INFO] sending data to rule engine
+2023/01/19 11:17:19 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:17:19 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:17:19 [eos] [INFO] flushing
+2023/01/19 11:17:19 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:17:19 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:17:19 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:17:19 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39947}]]
+2023/01/19 11:17:19 [eos] [INFO] commit successful!
+2023/01/19 11:17:21 [eos] [INFO] beginning transact session
+2023/01/19 11:17:21 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:17:21 [eos] [INFO] sending data to rule engine
+2023/01/19 11:17:21 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:17:21 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:17:21 [eos] [INFO] flushing
+2023/01/19 11:17:21 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:17:21 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:17:21 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:17:21 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39948}]]
+2023/01/19 11:17:21 [eos] [INFO] commit successful!
+2023/01/19 11:17:23 [eos] [INFO] beginning transact session
+2023/01/19 11:17:23 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:17:23 [eos] [INFO] sending data to rule engine
+2023/01/19 11:17:23 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:17:23 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:17:23 [eos] [INFO] flushing
+2023/01/19 11:17:23 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:17:23 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:17:23 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:17:23 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39949}]]
+2023/01/19 11:17:23 [eos] [INFO] commit successful!
+2023/01/19 11:17:25 [eos] [INFO] beginning transact session
+2023/01/19 11:17:25 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:17:25 [eos] [INFO] sending data to rule engine
+2023/01/19 11:17:25 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:17:25 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:17:25 [eos] [INFO] flushing
+2023/01/19 11:17:25 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:17:25 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:17:25 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:17:25 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39950}]]
+2023/01/19 11:17:25 [eos] [INFO] commit successful!
+2023/01/19 11:17:27 [eos] [INFO] beginning transact session
+2023/01/19 11:17:27 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:17:27 [eos] [INFO] sending data to rule engine
+2023/01/19 11:17:27 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:17:27 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:17:27 [eos] [INFO] flushing
+2023/01/19 11:17:27 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:17:27 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:17:27 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:17:27 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39951}]]
+2023/01/19 11:17:27 [eos] [INFO] commit successful!
+2023/01/19 11:17:28 [eos] [INFO] beginning transact session
+2023/01/19 11:17:28 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:17:28 [eos] [INFO] sending data to rule engine
+2023/01/19 11:17:28 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:17:28 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:17:28 [eos] [INFO] flushing
+2023/01/19 11:17:28 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:17:29 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:17:29 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:17:29 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39952}]]
+2023/01/19 11:17:29 [eos] [INFO] commit successful!
+2023/01/19 11:17:30 [eos] [INFO] beginning transact session
+2023/01/19 11:17:30 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:17:30 [eos] [INFO] sending data to rule engine
+2023/01/19 11:17:30 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:17:30 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:17:30 [eos] [INFO] flushing
+2023/01/19 11:17:30 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:17:30 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:17:30 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:17:30 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39953}]]
+2023/01/19 11:17:30 [eos] [INFO] commit successful!
+2023/01/19 11:17:32 [eos] [INFO] beginning transact session
+2023/01/19 11:17:32 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:17:32 [eos] [INFO] sending data to rule engine
+2023/01/19 11:17:32 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:17:32 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:17:32 [eos] [INFO] flushing
+2023/01/19 11:17:32 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:17:32 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:17:32 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:17:32 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39954}]]
+2023/01/19 11:17:32 [eos] [INFO] commit successful!
+2023/01/19 11:17:34 [eos] [INFO] beginning transact session
+2023/01/19 11:17:34 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:17:34 [eos] [INFO] sending data to rule engine
+2023/01/19 11:17:34 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:17:34 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:17:34 [eos] [INFO] flushing
+2023/01/19 11:17:34 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:17:34 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:17:34 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:17:34 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39955}]]
+2023/01/19 11:17:34 [eos] [INFO] commit successful!
+2023/01/19 11:17:36 [eos] [INFO] beginning transact session
+2023/01/19 11:17:36 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:17:36 [eos] [INFO] sending data to rule engine
+2023/01/19 11:17:36 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:17:36 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:17:36 [eos] [INFO] flushing
+2023/01/19 11:17:36 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:17:36 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:17:36 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:17:36 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39956}]]
+2023/01/19 11:17:36 [eos] [INFO] commit successful!
+2023/01/19 11:17:38 [eos] [INFO] beginning transact session
+2023/01/19 11:17:38 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:17:38 [eos] [INFO] sending data to rule engine
+2023/01/19 11:17:38 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:17:38 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:17:38 [eos] [INFO] flushing
+2023/01/19 11:17:38 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:17:38 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:17:38 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:17:38 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39957}]]
+2023/01/19 11:17:38 [eos] [INFO] commit successful!
+2023/01/19 11:17:39 [eos] [INFO] beginning transact session
+2023/01/19 11:17:39 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:17:39 [eos] [INFO] sending data to rule engine
+2023/01/19 11:17:39 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:17:39 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:17:39 [eos] [INFO] flushing
+2023/01/19 11:17:39 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:17:40 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:17:40 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:17:40 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39958}]]
+2023/01/19 11:17:40 [eos] [INFO] commit successful!
+2023/01/19 11:17:41 [eos] [INFO] beginning transact session
+2023/01/19 11:17:41 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:17:41 [eos] [INFO] sending data to rule engine
+2023/01/19 11:17:41 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:17:41 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:17:41 [eos] [INFO] flushing
+2023/01/19 11:17:41 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:17:41 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:17:41 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:17:41 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39959}]]
+2023/01/19 11:17:41 [eos] [INFO] commit successful!
+2023/01/19 11:17:43 [eos] [INFO] beginning transact session
+2023/01/19 11:17:43 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:17:43 [eos] [INFO] sending data to rule engine
+2023/01/19 11:17:43 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:17:43 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:17:43 [eos] [INFO] flushing
+2023/01/19 11:17:43 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:17:43 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:17:43 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:17:43 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39960}]]
+2023/01/19 11:17:43 [eos] [INFO] commit successful!
+2023/01/19 11:17:45 [eos] [INFO] beginning transact session
+2023/01/19 11:17:45 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:17:45 [eos] [INFO] sending data to rule engine
+2023/01/19 11:17:45 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:17:45 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:17:45 [eos] [INFO] flushing
+2023/01/19 11:17:45 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:17:45 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:17:45 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:17:45 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39961}]]
+2023/01/19 11:17:45 [eos] [INFO] commit successful!
+2023/01/19 11:17:47 [eos] [INFO] beginning transact session
+2023/01/19 11:17:47 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:17:47 [eos] [INFO] sending data to rule engine
+2023/01/19 11:17:47 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:17:47 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:17:47 [eos] [INFO] flushing
+2023/01/19 11:17:47 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:17:47 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:17:47 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:17:47 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39962}]]
+2023/01/19 11:17:47 [eos] [INFO] commit successful!
+2023/01/19 11:17:48 [eos] [INFO] beginning transact session
+2023/01/19 11:17:48 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:17:48 [eos] [INFO] sending data to rule engine
+2023/01/19 11:17:48 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:17:49 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:17:49 [eos] [INFO] flushing
+2023/01/19 11:17:49 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:17:49 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:17:49 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:17:49 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39963}]]
+2023/01/19 11:17:49 [eos] [INFO] commit successful!
+2023/01/19 11:17:50 [eos] [INFO] beginning transact session
+2023/01/19 11:17:50 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:17:50 [eos] [INFO] sending data to rule engine
+2023/01/19 11:17:50 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:17:50 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:17:50 [eos] [INFO] flushing
+2023/01/19 11:17:50 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:17:50 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:17:50 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:17:51 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39964}]]
+2023/01/19 11:17:51 [eos] [INFO] commit successful!
+2023/01/19 11:17:52 [eos] [INFO] beginning transact session
+2023/01/19 11:17:52 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:17:52 [eos] [INFO] sending data to rule engine
+2023/01/19 11:17:52 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:17:52 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:17:52 [eos] [INFO] flushing
+2023/01/19 11:17:52 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:17:52 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:17:52 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:17:52 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39965}]]
+2023/01/19 11:17:52 [eos] [INFO] commit successful!
+2023/01/19 11:17:54 [eos] [INFO] beginning transact session
+2023/01/19 11:17:54 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:17:54 [eos] [INFO] sending data to rule engine
+2023/01/19 11:17:54 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:17:54 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:17:54 [eos] [INFO] flushing
+2023/01/19 11:17:54 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:17:54 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:17:54 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:17:54 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39966}]]
+2023/01/19 11:17:54 [eos] [INFO] commit successful!
+2023/01/19 11:17:56 [eos] [INFO] beginning transact session
+2023/01/19 11:17:56 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:17:56 [eos] [INFO] sending data to rule engine
+2023/01/19 11:17:56 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:17:56 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:17:56 [eos] [INFO] flushing
+2023/01/19 11:17:56 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:17:56 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:17:56 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:17:56 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39967}]]
+2023/01/19 11:17:56 [eos] [INFO] commit successful!
+2023/01/19 11:17:58 [eos] [INFO] beginning transact session
+2023/01/19 11:17:58 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:17:58 [eos] [INFO] sending data to rule engine
+2023/01/19 11:17:58 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:17:58 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:17:58 [eos] [INFO] flushing
+2023/01/19 11:17:58 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:17:58 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:17:58 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:17:58 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39968}]]
+2023/01/19 11:17:58 [eos] [INFO] commit successful!
+2023/01/19 11:17:59 [eos] [INFO] beginning transact session
+2023/01/19 11:17:59 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:17:59 [eos] [INFO] sending data to rule engine
+2023/01/19 11:17:59 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:17:59 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:18:00 [eos] [INFO] flushing
+2023/01/19 11:18:00 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:18:00 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:18:00 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:18:00 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39969}]]
+2023/01/19 11:18:00 [eos] [INFO] commit successful!
+2023/01/19 11:18:01 [eos] [INFO] beginning transact session
+2023/01/19 11:18:01 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:18:01 [eos] [INFO] sending data to rule engine
+2023/01/19 11:18:01 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:18:01 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:18:01 [eos] [INFO] flushing
+2023/01/19 11:18:01 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:18:01 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:18:01 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:18:02 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39970}]]
+2023/01/19 11:18:02 [eos] [INFO] commit successful!
+2023/01/19 11:18:03 [eos] [INFO] beginning transact session
+2023/01/19 11:18:03 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:18:03 [eos] [INFO] sending data to rule engine
+2023/01/19 11:18:03 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:18:03 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:18:03 [eos] [INFO] flushing
+2023/01/19 11:18:03 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:18:03 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:18:03 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:18:03 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39971}]]
+2023/01/19 11:18:03 [eos] [INFO] commit successful!
+2023/01/19 11:18:05 [eos] [INFO] beginning transact session
+2023/01/19 11:18:05 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:18:05 [eos] [INFO] sending data to rule engine
+2023/01/19 11:18:05 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:18:05 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:18:05 [eos] [INFO] flushing
+2023/01/19 11:18:05 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:18:05 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:18:05 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:18:05 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39972}]]
+2023/01/19 11:18:05 [eos] [INFO] commit successful!
+2023/01/19 11:18:07 [eos] [INFO] beginning transact session
+2023/01/19 11:18:07 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:18:07 [eos] [INFO] sending data to rule engine
+2023/01/19 11:18:07 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:18:07 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:18:07 [eos] [INFO] flushing
+2023/01/19 11:18:07 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:18:07 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:18:07 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:18:07 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39973}]]
+2023/01/19 11:18:07 [eos] [INFO] commit successful!
+2023/01/19 11:18:09 [eos] [INFO] beginning transact session
+2023/01/19 11:18:09 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:18:09 [eos] [INFO] sending data to rule engine
+2023/01/19 11:18:09 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:18:09 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:18:09 [eos] [INFO] flushing
+2023/01/19 11:18:09 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:18:09 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:18:09 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:18:09 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39974}]]
+2023/01/19 11:18:09 [eos] [INFO] commit successful!
+2023/01/19 11:18:10 [eos] [INFO] beginning transact session
+2023/01/19 11:18:10 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:18:10 [eos] [INFO] sending data to rule engine
+2023/01/19 11:18:10 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:18:10 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:18:10 [eos] [INFO] flushing
+2023/01/19 11:18:10 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:18:11 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:18:11 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:18:11 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39975}]]
+2023/01/19 11:18:11 [eos] [INFO] commit successful!
+2023/01/19 11:18:12 [eos] [INFO] beginning transact session
+2023/01/19 11:18:12 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:18:12 [eos] [INFO] sending data to rule engine
+2023/01/19 11:18:12 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:18:12 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:18:12 [eos] [INFO] flushing
+2023/01/19 11:18:12 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:18:12 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:18:12 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:18:12 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39976}]]
+2023/01/19 11:18:12 [eos] [INFO] commit successful!
+2023/01/19 11:18:14 [eos] [INFO] beginning transact session
+2023/01/19 11:18:14 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:18:14 [eos] [INFO] sending data to rule engine
+2023/01/19 11:18:14 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:18:14 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:18:14 [eos] [INFO] flushing
+2023/01/19 11:18:14 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:18:14 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:18:14 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:18:14 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39977}]]
+2023/01/19 11:18:14 [eos] [INFO] commit successful!
+2023/01/19 11:18:16 [eos] [INFO] beginning transact session
+2023/01/19 11:18:16 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:18:16 [eos] [INFO] sending data to rule engine
+2023/01/19 11:18:16 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:18:16 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:18:16 [eos] [INFO] flushing
+2023/01/19 11:18:16 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:18:16 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:18:16 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:18:16 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39978}]]
+2023/01/19 11:18:16 [eos] [INFO] commit successful!
+2023/01/19 11:18:18 [eos] [INFO] beginning transact session
+2023/01/19 11:18:18 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:18:18 [eos] [INFO] sending data to rule engine
+2023/01/19 11:18:18 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:18:18 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:18:18 [eos] [INFO] flushing
+2023/01/19 11:18:18 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:18:18 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:18:18 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:18:18 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39979}]]
+2023/01/19 11:18:18 [eos] [INFO] commit successful!
+2023/01/19 11:18:20 [eos] [INFO] beginning transact session
+2023/01/19 11:18:20 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:18:20 [eos] [INFO] sending data to rule engine
+2023/01/19 11:18:20 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:18:20 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:18:20 [eos] [INFO] flushing
+2023/01/19 11:18:20 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:18:20 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:18:20 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:18:20 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39980}]]
+2023/01/19 11:18:20 [eos] [INFO] commit successful!
+2023/01/19 11:18:21 [eos] [INFO] beginning transact session
+2023/01/19 11:18:21 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:18:21 [eos] [INFO] sending data to rule engine
+2023/01/19 11:18:21 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:18:21 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:18:21 [eos] [INFO] flushing
+2023/01/19 11:18:21 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:18:22 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:18:22 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:18:22 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39981}]]
+2023/01/19 11:18:22 [eos] [INFO] commit successful!
+2023/01/19 11:18:23 [eos] [INFO] beginning transact session
+2023/01/19 11:18:23 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:18:23 [eos] [INFO] sending data to rule engine
+2023/01/19 11:18:23 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:18:23 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:18:23 [eos] [INFO] flushing
+2023/01/19 11:18:23 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:18:23 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:18:23 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:18:23 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39982}]]
+2023/01/19 11:18:23 [eos] [INFO] commit successful!
+2023/01/19 11:18:25 [eos] [INFO] beginning transact session
+2023/01/19 11:18:25 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:18:25 [eos] [INFO] sending data to rule engine
+2023/01/19 11:18:25 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:18:25 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:18:25 [eos] [INFO] flushing
+2023/01/19 11:18:25 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:18:25 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:18:25 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:18:25 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39983}]]
+2023/01/19 11:18:25 [eos] [INFO] commit successful!
+2023/01/19 11:18:27 [eos] [INFO] beginning transact session
+2023/01/19 11:18:27 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:18:27 [eos] [INFO] sending data to rule engine
+2023/01/19 11:18:27 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:18:27 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:18:27 [eos] [INFO] flushing
+2023/01/19 11:18:27 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:18:27 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:18:27 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:18:27 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39984}]]
+2023/01/19 11:18:27 [eos] [INFO] commit successful!
+2023/01/19 11:18:29 [eos] [INFO] beginning transact session
+2023/01/19 11:18:29 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:18:29 [eos] [INFO] sending data to rule engine
+2023/01/19 11:18:29 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:18:29 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:18:29 [eos] [INFO] flushing
+2023/01/19 11:18:29 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:18:29 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:18:29 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:18:29 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39985}]]
+2023/01/19 11:18:29 [eos] [INFO] commit successful!
+2023/01/19 11:18:31 [eos] [INFO] beginning transact session
+2023/01/19 11:18:31 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:18:31 [eos] [INFO] sending data to rule engine
+2023/01/19 11:18:31 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:18:31 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:18:31 [eos] [INFO] flushing
+2023/01/19 11:18:31 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:18:31 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:18:31 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:18:31 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39986}]]
+2023/01/19 11:18:31 [eos] [INFO] commit successful!
+2023/01/19 11:18:32 [eos] [INFO] beginning transact session
+2023/01/19 11:18:32 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:18:32 [eos] [INFO] sending data to rule engine
+2023/01/19 11:18:32 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:18:32 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:18:32 [eos] [INFO] flushing
+2023/01/19 11:18:32 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:18:32 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:18:32 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:18:33 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39987}]]
+2023/01/19 11:18:33 [eos] [INFO] commit successful!
+2023/01/19 11:18:34 [eos] [INFO] beginning transact session
+2023/01/19 11:18:34 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:18:34 [eos] [INFO] sending data to rule engine
+2023/01/19 11:18:34 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:18:34 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:18:34 [eos] [INFO] flushing
+2023/01/19 11:18:34 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:18:34 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:18:34 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:18:34 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39988}]]
+2023/01/19 11:18:34 [eos] [INFO] commit successful!
+2023/01/19 11:18:36 [eos] [INFO] beginning transact session
+2023/01/19 11:18:36 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:18:36 [eos] [INFO] sending data to rule engine
+2023/01/19 11:18:36 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:18:36 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:18:36 [eos] [INFO] flushing
+2023/01/19 11:18:36 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:18:36 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:18:36 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:18:36 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39989}]]
+2023/01/19 11:18:36 [eos] [INFO] commit successful!
+2023/01/19 11:18:38 [eos] [INFO] beginning transact session
+2023/01/19 11:18:38 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:18:38 [eos] [INFO] sending data to rule engine
+2023/01/19 11:18:38 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:18:38 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:18:38 [eos] [INFO] flushing
+2023/01/19 11:18:38 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:18:38 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:18:38 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:18:38 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39990}]]
+2023/01/19 11:18:38 [eos] [INFO] commit successful!
+2023/01/19 11:18:40 [eos] [INFO] beginning transact session
+2023/01/19 11:18:40 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:18:40 [eos] [INFO] sending data to rule engine
+2023/01/19 11:18:40 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:18:40 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:18:40 [eos] [INFO] flushing
+2023/01/19 11:18:40 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:18:40 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:18:40 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:18:40 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39991}]]
+2023/01/19 11:18:40 [eos] [INFO] commit successful!
+2023/01/19 11:18:41 [eos] [INFO] beginning transact session
+2023/01/19 11:18:41 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:18:41 [eos] [INFO] sending data to rule engine
+2023/01/19 11:18:41 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:18:41 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:18:41 [eos] [INFO] flushing
+2023/01/19 11:18:41 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:18:42 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:18:42 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:18:42 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39992}]]
+2023/01/19 11:18:42 [eos] [INFO] commit successful!
+2023/01/19 11:18:43 [eos] [INFO] beginning transact session
+2023/01/19 11:18:43 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:18:43 [eos] [INFO] sending data to rule engine
+2023/01/19 11:18:43 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:18:43 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:18:43 [eos] [INFO] flushing
+2023/01/19 11:18:43 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:18:43 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:18:43 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:18:43 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39993}]]
+2023/01/19 11:18:43 [eos] [INFO] commit successful!
+2023/01/19 11:18:45 [eos] [INFO] beginning transact session
+2023/01/19 11:18:45 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:18:45 [eos] [INFO] sending data to rule engine
+2023/01/19 11:18:45 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:18:45 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:18:45 [eos] [INFO] flushing
+2023/01/19 11:18:45 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:18:45 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:18:45 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:18:45 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39994}]]
+2023/01/19 11:18:45 [eos] [INFO] commit successful!
+2023/01/19 11:18:47 [eos] [INFO] beginning transact session
+2023/01/19 11:18:47 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:18:47 [eos] [INFO] sending data to rule engine
+2023/01/19 11:18:47 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:18:47 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:18:47 [eos] [INFO] flushing
+2023/01/19 11:18:47 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:18:47 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:18:47 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:18:47 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39995}]]
+2023/01/19 11:18:47 [eos] [INFO] commit successful!
+2023/01/19 11:18:49 [eos] [INFO] beginning transact session
+2023/01/19 11:18:49 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:18:49 [eos] [INFO] sending data to rule engine
+2023/01/19 11:18:49 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:18:49 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:18:49 [eos] [INFO] flushing
+2023/01/19 11:18:49 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:18:49 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:18:49 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:18:49 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39996}]]
+2023/01/19 11:18:49 [eos] [INFO] commit successful!
+2023/01/19 11:18:51 [eos] [INFO] beginning transact session
+2023/01/19 11:18:51 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:18:51 [eos] [INFO] sending data to rule engine
+2023/01/19 11:18:51 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:18:51 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:18:51 [eos] [INFO] flushing
+2023/01/19 11:18:51 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:18:51 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:18:51 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:18:51 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39997}]]
+2023/01/19 11:18:51 [eos] [INFO] commit successful!
+2023/01/19 11:18:52 [eos] [INFO] beginning transact session
+2023/01/19 11:18:52 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:18:52 [eos] [INFO] sending data to rule engine
+2023/01/19 11:18:52 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:18:52 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:18:52 [eos] [INFO] flushing
+2023/01/19 11:18:52 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:18:52 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:18:52 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:18:53 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39998}]]
+2023/01/19 11:18:53 [eos] [INFO] commit successful!
+2023/01/19 11:18:54 [eos] [INFO] beginning transact session
+2023/01/19 11:18:54 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:18:54 [eos] [INFO] sending data to rule engine
+2023/01/19 11:18:54 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:18:54 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:18:54 [eos] [INFO] flushing
+2023/01/19 11:18:54 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:18:54 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:18:54 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:18:54 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 39999}]]
+2023/01/19 11:18:54 [eos] [INFO] commit successful!
+2023/01/19 11:18:56 [eos] [INFO] beginning transact session
+2023/01/19 11:18:56 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:18:56 [eos] [INFO] sending data to rule engine
+2023/01/19 11:18:56 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:18:56 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:18:56 [eos] [INFO] flushing
+2023/01/19 11:18:56 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:18:56 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:18:56 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:18:56 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 40000}]]
+2023/01/19 11:18:56 [eos] [INFO] commit successful!
+2023/01/19 11:18:58 [eos] [INFO] beginning transact session
+2023/01/19 11:18:58 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:18:58 [eos] [INFO] sending data to rule engine
+2023/01/19 11:18:58 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:18:58 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:18:58 [eos] [INFO] flushing
+2023/01/19 11:18:58 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:18:58 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:18:58 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:18:58 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 40001}]]
+2023/01/19 11:18:58 [eos] [INFO] commit successful!
+2023/01/19 11:19:00 [eos] [INFO] beginning transact session
+2023/01/19 11:19:00 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:19:00 [eos] [INFO] sending data to rule engine
+2023/01/19 11:19:00 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:19:00 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:19:00 [eos] [INFO] flushing
+2023/01/19 11:19:00 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:19:00 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:19:00 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:19:00 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 40002}]]
+2023/01/19 11:19:00 [eos] [INFO] commit successful!
+2023/01/19 11:19:02 [eos] [INFO] beginning transact session
+2023/01/19 11:19:02 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:19:02 [eos] [INFO] sending data to rule engine
+2023/01/19 11:19:02 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:19:02 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:19:02 [eos] [INFO] flushing
+2023/01/19 11:19:02 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:19:02 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:19:02 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:19:02 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 40003}]]
+2023/01/19 11:19:02 [eos] [INFO] commit successful!
+2023/01/19 11:19:03 [eos] [INFO] beginning transact session
+2023/01/19 11:19:03 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:19:03 [eos] [INFO] sending data to rule engine
+2023/01/19 11:19:03 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:19:03 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:19:03 [eos] [INFO] flushing
+2023/01/19 11:19:03 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:19:03 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:19:03 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:19:04 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 40004}]]
+2023/01/19 11:19:04 [eos] [INFO] commit successful!
+2023/01/19 11:19:05 [eos] [INFO] beginning transact session
+2023/01/19 11:19:05 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:19:05 [eos] [INFO] sending data to rule engine
+2023/01/19 11:19:05 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:19:05 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:19:05 [eos] [INFO] flushing
+2023/01/19 11:19:05 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:19:05 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:19:05 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:19:05 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 40005}]]
+2023/01/19 11:19:05 [eos] [INFO] commit successful!
+2023/01/19 11:19:07 [eos] [INFO] beginning transact session
+2023/01/19 11:19:07 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:19:07 [eos] [INFO] sending data to rule engine
+2023/01/19 11:19:07 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:19:07 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:19:07 [eos] [INFO] flushing
+2023/01/19 11:19:07 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:19:07 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:19:07 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:19:07 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 40006}]]
+2023/01/19 11:19:07 [eos] [INFO] commit successful!
+2023/01/19 11:19:09 [eos] [INFO] beginning transact session
+2023/01/19 11:19:09 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:19:09 [eos] [INFO] sending data to rule engine
+2023/01/19 11:19:09 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:19:09 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:19:09 [eos] [INFO] flushing
+2023/01/19 11:19:09 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:19:09 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:19:09 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:19:09 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 40007}]]
+2023/01/19 11:19:09 [eos] [INFO] commit successful!
+2023/01/19 11:19:11 [eos] [INFO] beginning transact session
+2023/01/19 11:19:11 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:19:11 [eos] [INFO] sending data to rule engine
+2023/01/19 11:19:11 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:19:11 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:19:11 [eos] [INFO] flushing
+2023/01/19 11:19:11 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:19:11 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:19:11 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:19:11 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 40008}]]
+2023/01/19 11:19:11 [eos] [INFO] commit successful!
+2023/01/19 11:19:12 [eos] [INFO] beginning transact session
+2023/01/19 11:19:12 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:19:12 [eos] [INFO] sending data to rule engine
+2023/01/19 11:19:12 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:19:12 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:19:13 [eos] [INFO] flushing
+2023/01/19 11:19:13 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:19:13 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:19:13 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:19:13 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 40009}]]
+2023/01/19 11:19:13 [eos] [INFO] commit successful!
+2023/01/19 11:19:14 [eos] [INFO] beginning transact session
+2023/01/19 11:19:14 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:19:14 [eos] [INFO] sending data to rule engine
+2023/01/19 11:19:14 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:19:14 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:19:14 [eos] [INFO] flushing
+2023/01/19 11:19:14 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:19:14 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:19:14 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:19:14 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 40010}]]
+2023/01/19 11:19:14 [eos] [INFO] commit successful!
+2023/01/19 11:19:16 [eos] [INFO] beginning transact session
+2023/01/19 11:19:16 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:19:16 [eos] [INFO] sending data to rule engine
+2023/01/19 11:19:16 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:19:16 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:19:16 [eos] [INFO] flushing
+2023/01/19 11:19:16 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:19:16 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:19:16 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:19:16 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 40011}]]
+2023/01/19 11:19:16 [eos] [INFO] commit successful!
+2023/01/19 11:19:18 [eos] [INFO] beginning transact session
+2023/01/19 11:19:18 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:19:18 [eos] [INFO] sending data to rule engine
+2023/01/19 11:19:18 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:19:18 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:19:18 [eos] [INFO] flushing
+2023/01/19 11:19:18 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:19:18 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:19:18 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:19:18 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 40012}]]
+2023/01/19 11:19:18 [eos] [INFO] commit successful!
+2023/01/19 11:19:20 [eos] [INFO] beginning transact session
+2023/01/19 11:19:20 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:19:20 [eos] [INFO] sending data to rule engine
+2023/01/19 11:19:20 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:19:20 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:19:20 [eos] [INFO] flushing
+2023/01/19 11:19:20 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:19:20 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:19:20 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:19:20 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 40013}]]
+2023/01/19 11:19:20 [eos] [INFO] commit successful!
+2023/01/19 11:19:22 [eos] [INFO] beginning transact session
+2023/01/19 11:19:22 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:19:22 [eos] [INFO] sending data to rule engine
+2023/01/19 11:19:22 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:19:22 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:19:22 [eos] [INFO] flushing
+2023/01/19 11:19:22 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:19:22 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:19:22 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:19:22 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 40014}]]
+2023/01/19 11:19:22 [eos] [INFO] commit successful!
+2023/01/19 11:19:23 [eos] [INFO] beginning transact session
+2023/01/19 11:19:23 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:19:23 [eos] [INFO] sending data to rule engine
+2023/01/19 11:19:23 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:19:23 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:19:23 [eos] [INFO] flushing
+2023/01/19 11:19:23 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:19:24 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:19:24 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:19:24 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 40015}]]
+2023/01/19 11:19:24 [eos] [INFO] commit successful!
+2023/01/19 11:19:25 [eos] [INFO] beginning transact session
+2023/01/19 11:19:25 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:19:25 [eos] [INFO] sending data to rule engine
+2023/01/19 11:19:25 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:19:25 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:19:25 [eos] [INFO] flushing
+2023/01/19 11:19:25 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:19:25 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:19:25 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:19:25 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 40016}]]
+2023/01/19 11:19:25 [eos] [INFO] commit successful!
+2023/01/19 11:19:27 [eos] [INFO] beginning transact session
+2023/01/19 11:19:27 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:19:27 [eos] [INFO] sending data to rule engine
+2023/01/19 11:19:27 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:19:27 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:19:27 [eos] [INFO] flushing
+2023/01/19 11:19:27 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:19:27 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:19:27 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:19:27 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 40017}]]
+2023/01/19 11:19:27 [eos] [INFO] commit successful!
+2023/01/19 11:19:29 [eos] [INFO] beginning transact session
+2023/01/19 11:19:29 [eos] [INFO] beginning transaction; transactional_id: eos-eos-consumer-12445543
+2023/01/19 11:19:29 [eos] [INFO] sending data to rule engine
+2023/01/19 11:19:29 [rule engine] [INFO] receive from kafka 
+2023/01/19 11:19:29 [eos] [INFO] receive from rule engine. Publish to kafka
+2023/01/19 11:19:29 [eos] [INFO] flushing
+2023/01/19 11:19:29 [eos] [INFO] issuing AddOffsetsToTxn; txn: eos-eos-consumer-12445543, producerID: 38001, producerEpoch: 198, group: eos-task-force-group
+2023/01/19 11:19:29 [eos] [INFO] transaction session ending; was_failed: false, want_commit: true, can_try_commit: true, will_try_commit: true
+2023/01/19 11:19:29 [eos] [INFO] ending transaction; transactional_id: eos-eos-consumer-12445543, producer_id: 38001, epoch: 198, commit: true
+2023/01/19 11:19:29 [eos] [INFO] transact session successful, setting to newly committed state; tried_commit: true, postcommit: map[GoRuleEngineServiceIn:map[0:{0 40018}]]
+2023/01/19 11:19:29 [eos] [INFO] commit successful!
