@@ -15,9 +15,13 @@ This app uses NewGroupTransactSession.
 Quote from the source code:
 https://github.com/twmb/franz-go/blob/bfcfa0847e03933f371a4ec813d8dd4e0f5780fd/pkg/kgo/txn.go#L75
 
+
 // NewGroupTransactSession is exactly the same as NewClient, but wraps the
+
 // client's OnPartitionsRevoked / OnPartitionsLost to ensure that transactions
+
 // are correctly aborted whenever necessary so as to properly provide EOS.
+
 
 More elaborate exaplanation is founded there.
 
@@ -52,8 +56,16 @@ $ go build
 Run an instance:
 ----------------
 
+The default kafka broker is looked up on localhost:9092 address.
 
-$ ./go_kafka_txn_eos -brokers 141.147.22.26:9092 -debug-host 10.10.11.66:9999 -topic-in GoRuleEngineServiceIn -eos-topic-out\ GoRuleEngineServiceOutTransformationServiceIn  > run_inst1.log 2>&1 &
+If you have other configuration use the flag -brokers.
+
+The flag -brokers expects a comma separated list of kafka brokers. 
+
+Do not leave comma at the end of the list!
+
+
+$ ./go_kafka_txn_eos -brokers broker-host-or-ip-address:9092 -debug-host localhost-or-ip-address:9999 -topic-in GoRuleEngineServiceIn -eos-topic-out GoRuleEngineServiceOutTransformationServiceIn  > run_inst1.log 2>&1 &
 
 
 To see the flow the in action:
@@ -66,7 +78,7 @@ Run another instance:
 
 One must change the debug-host port. This is the only requirement to run distinct instances.
 
-$ ./go_kafka_txn_eos -brokers 141.147.22.26:9092 -debug-host 10.10.11.66:9998 -topic-in GoRuleEngineServiceIn -eos-topic-out\ GoRuleEngineServiceOutTransformationServiceIn  > run_inst2.log 2>&1 &
+$ ./go_kafka_txn_eos -brokers broker-host-or-ip-address:9092 -debug-host localhost-or-ip-address:9998 -topic-in GoRuleEngineServiceIn -eos-topic-out GoRuleEngineServiceOutTransformationServiceIn  > run_inst2.log 2>&1 &
 
 
 Stop an instance:
