@@ -9,6 +9,7 @@ import (
 	"syscall"
 	"sync"
 	"strings"
+	"strconv"
 	"time"
 	"log"
 	"encoding/json"
@@ -52,11 +53,13 @@ func my_now() string {
 func eos_prod_cons(ctx context.Context, metrics *Metrics, comm chan string) error {
 	log.Println("[eos] [INFO] started ")
 
+	producerId := strconv.FormatInt(int64(os.Getpid()), 10)
 	sess, err := kgo.NewGroupTransactSession(
 		
 		kgo.SeedBrokers(strings.Split(*seedBrokers, ",")...),
 		kgo.DefaultProduceTopic(*eosTopicOut),
-		kgo.TransactionalID(*consumeTxnID),
+		// kgo.TransactionalID(*consumeTxnID),
+		kgo.TransactionalID(producerId),
 		kgo.FetchIsolationLevel(kgo.ReadCommitted()),
 		kgo.WithHooks(metrics),
 		kgo.WithLogger(kgo.BasicLogger(os.Stderr, kgo.LogLevelInfo, func() string {
