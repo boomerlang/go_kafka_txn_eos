@@ -13,8 +13,9 @@ import (
 	"time"
 	"log"
 	"encoding/json"
-	"net/http"
-	_ "net/http/pprof"
+	
+	// "net/http"
+	// _ "net/http/pprof"
 	
 	"github.com/twmb/franz-go/pkg/kgo"
 )
@@ -209,10 +210,10 @@ func main() {
 		eos_prod_cons(ctx, metrics, comm)
 	}(ctx, metrics, comm)
 
-	go func() {
-		http.Handle("/metrics", metrics.Handler())
-		log.Fatal(http.ListenAndServe(*debugHost, nil))
-	}()
+	// go func() {
+	// 	http.Handle("/metrics", metrics.Handler())
+	// 	log.Fatal(http.ListenAndServe(*debugHost, nil))
+	// }()
 
 	shutdown_channel := make(chan os.Signal)
 	signal.Notify(shutdown_channel, syscall.SIGINT, syscall.SIGTERM)
