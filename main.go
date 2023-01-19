@@ -101,7 +101,19 @@ func eos_prod_cons(ctx context.Context, metrics *Metrics, comm chan string) erro
 						select {
 						case msg := <- comm:
 							log.Println("[eos] [INFO] receive from rule engine. Publish to kafka")
-							sess.Produce(ctx, kgo.StringRecord(string(msg)), e.Promise())
+
+							msg1 := strings.Split(msg, ":")
+
+							
+							key := msg1[0]
+							value := strings.Join(msg1[1:], ":")
+							// if we consume from kafa stream we should have a key
+							// otherwise use transactionId as key for produce to kafka topic
+							if r.Key != nil {
+								key = string(r.Key)
+							}
+							fmt.Println("MSG1 = ", key, value)
+							sess.Produce(ctx, kgo.KeyStringRecord(key, value), e.Promise())
 					}
 				}
 				
@@ -158,7 +170,7 @@ func rule_engine(ctx context.Context, comm chan string) error {
 				log.Printf("***JSON-MARSHALL:%s****", err1)
 			}
 
-			comm <- string(msg)
+			comm <- transactionId + ":" + string(msg)
 			
 		case <- ctx.Done():
 			log.Println("[rule engine] [INFO] stopped ")
