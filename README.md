@@ -106,6 +106,19 @@ verifications that takes some time until it becomes operational.
 In Windows must be taken into account this.
 
 
+Crash it!
+---------
+
+If an instance is crashed with SIGKILL UNIX signal the other running instances will have a 
+delay in taking over the ownership of the transactions, because if the transactions
+are not cleanly studown the other instances does not get notified about this and there is
+involved a timeout after which the rebalance occurs.
+
+A SIGTERM UNIX signal will shutdown cleanly the transcations and another running instance 
+will start immedaiately processing the kafla topic because the closing instance announces this
+to the other instances and one of them takes over and rebalance immediately
+
+
 Metrics
 -------
 
